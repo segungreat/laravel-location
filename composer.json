@@ -1,5 +1,5 @@
 {
-	"name": "ichtrojan/laravel-location",
+	"name": "segungreat/laravel-location",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
@@ -11,13 +11,13 @@
 	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
-			"Ichtrojan\\Location\\": "src/"
+			"SegunGreat\\Location\\": "src/"
 		}
 	},
 
 	"autoload-dev": {
 		"psr-4": {
-			"Ichtrojan\\Location\\Test\\": "tests"
+			"SegunGreat\\Location\\Test\\": "tests"
 		}
 	},
 	"scripts": {
@@ -26,7 +26,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Ichtrojan\\Location\\LocationServiceProvider"
+				"SegunGreat\\Location\\LocationServiceProvider"
 			]
 		}
 	},

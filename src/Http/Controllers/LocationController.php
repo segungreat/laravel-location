@@ -1,9 +1,9 @@
 <?php
-namespace Ichtrojan\Location\Http\Controllers;
+namespace SegunGreat\Location\Http\Controllers;
 
-use Ichtrojan\Location\Models\City;
-use Ichtrojan\Location\Models\State;
-use Ichtrojan\Location\Models\Country;
+use SegunGreat\Location\Models\City;
+use SegunGreat\Location\Models\State;
+use SegunGreat\Location\Models\Country;
 use Illuminate\Http\JsonResponse;
 
 class LocationController extends Controller

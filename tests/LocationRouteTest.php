@@ -1,9 +1,9 @@
 <?php
 
-namespace Ichtrojan\Location\Test;
+namespace SegunGreat\Location\Test;
 
-use Ichtrojan\Location\Models\City;
-use Ichtrojan\Location\Models\State;
+use SegunGreat\Location\Models\City;
+use SegunGreat\Location\Models\State;
 
 class LocationRouteTest extends TestCase
 {

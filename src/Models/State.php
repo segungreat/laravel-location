@@ -1,6 +1,6 @@
 <?php
 
-namespace Ichtrojan\Location\Models;
+namespace SegunGreat\Location\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;

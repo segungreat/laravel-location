@@ -1,6 +1,6 @@
 <?php
 
-namespace Ichtrojan\Location;
+namespace SegunGreat\Location;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class LocationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Ichtrojan\Location\Http\Controllers\LocationController');
-        $this->app->make('Ichtrojan\Location\Seeds\LocationDatabaseSeeder');
+        $this->app->make('SegunGreat\Location\Http\Controllers\LocationController');
+        $this->app->make('SegunGreat\Location\Seeds\LocationDatabaseSeeder');
         $this->mergeConfigFrom(__DIR__ . "/../publishable/config/location.php", 'laravel-location');
     }
 
